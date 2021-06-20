@@ -1,0 +1,7 @@
+[flake8]
+exclude = .git,fixtures,*.txt,.direnv,venv,*/migrations/*
+# N805 isn't fully compatible with Pydantic
+extend-ignore = E203,N805
+max-line-length = 99
+application-import-names = msp
+import_order_style = smarkets
