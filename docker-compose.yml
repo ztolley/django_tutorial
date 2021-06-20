@@ -1,7 +1,7 @@
 services:
   db:
     image: postgres:13.3
-    container_name: Postgres
+    container_name: Tutorial_Postgres
     hostname: db
     restart: unless-stopped
     env_file:
